@@ -1,15 +1,33 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <!-- Mensaje de bienvenida -->
+  <h1>¡Bienvenido a nuestra pagina About!</h1>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+<style scoped>
+  /* Estilos globales */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
   }
-}
+
+  /* Estilo para el contenedor principal */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+
+  /* Mensaje de bienvenida */
+  h1 {
+    font-size: 3rem;
+    color: #42b983;
+    margin-bottom: 10px;
+  }
 </style>
